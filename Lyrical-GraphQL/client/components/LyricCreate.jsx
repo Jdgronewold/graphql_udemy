@@ -1,7 +1,6 @@
 import React from 'react'
 import { graphql } from 'react-apollo'
 import { addLyricToSong } from '../queries/saveLyric'
-import { fetchSong } from '../queries/fetchSong'
 
 class LyricCreate extends React.Component {
   constructor(props) {
